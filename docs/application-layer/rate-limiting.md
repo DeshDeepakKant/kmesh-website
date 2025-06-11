@@ -179,6 +179,7 @@ You can view these metrics through the Kmesh monitoring interface or export them
 If rate limiting is not working as expected:
 
 1. **Verify configuration**: Ensure your EnvoyFilter is correctly configured and applied:
+
    ```bash
 
    kubectl get envoyfilter
@@ -206,3 +207,4 @@ If rate limiting is not working as expected:
 ## Conclusion
 
 Rate limiting in Kmesh provides an efficient way to protect your services from excessive traffic directly at the kernel level. By properly configuring rate limits, you can ensure service stability and availability even under high load conditions.
+
